@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: url(imagemPilha\ \(2\).jpg);
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.pag-inicial{
+    background-image: url(imagemPilha.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    background-color: rgba(63, 58, 58, 0.8);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.auth-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2em;
+    color: #ad3cc4;
+    margin-bottom: 0.5em;
+}
+
+.subheading {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 1.5em;
+}
+
+.auth-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.auth-box label {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: #333;
+}
+
+.auth-box label .material-symbols-outlined {
+    margin-right: 0.5em;
+}
+
+.auth-box input {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+}
+
+.auth-button {
+    background-color: #4c74af;
+    color: white;
+    border: none;
+    padding: 0.75em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em;
+}
+
+.auth-button:hover {
+    background-color: #a7133f;
+}
+
+.link {
+    font-size: 0.9em;
+    color: #4c5baf;
+    text-decoration: none;
+    margin-top: 0.5em;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+main {
+    flex: 1;
+}
+
+button {
+    background-color: #4c74af;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #7e1a65;
+}
+
+.checkout-button {
+    margin: 2em;
+    padding: 1em 2em;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Cadastro de Endereço</title>
+</head>
+<body class="pag-inicial">
+    <div class="auth-container">
+        <h1>Cadastro de Endereço</h1>
+        <p class="subheading">Preencha os campos para cadastrar seu endereço</p>
+        
+        <div class="auth-box">
+            
+            <label for="street"><span class="material-symbols-outlined">location_on</span> Rua</label>
+            <input required type="text" id="rua" name="street" placeholder="Digite o nome da rua" required>
+
+            <label for="number"><span class="material-symbols-outlined">pin</span> Número</label>
+            <input required type="text" id="number" name="number" placeholder="Digite o número" required>
+
+            <label for="neighborhood"><span class="material-symbols-outlined">map</span> Bairro</label>
+            <input required type="text" id="bairro" name="neighborhood" placeholder="Digite o bairro" required>
+
+            <label for="city"><span class="material-symbols-outlined">location_city</span> Cidade</label>
+            <input required type="text" id="cidade" name="city" placeholder="Digite a cidade" required>
+
+            <label for="state"><span class="material-symbols-outlined">public</span> Estado</label>
+            <input required type="text" id="estado" name="state" placeholder="Digite o estado" required>
+
+            <label for="zipcode"><span class="material-symbols-outlined">markunread_mailbox</span> CEP</label>
+            <input required type="text" id="cep" name="zipcode" placeholder="Digite o CEP" required>
+            
+            <button onclick="cadastrarEndereco()">Cadastrar Endereço</button>
+            
+            <a href="index.html" class="link">Voltar a Loja</a>
+        
+        </div>
+    </div>
+    
+    <footer>
+        Trabalho Criado para fins de simulação <p>&copy; 2024 Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
