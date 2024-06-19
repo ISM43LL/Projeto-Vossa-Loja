@@ -120,3 +120,38 @@ footer {
 .bold {
     font-weight: bold;
 }
+@media (max-width: 1200px) {
+    .products-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products-container {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .product-image {
+        height: 200px;
+    }
+
+    .btn {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

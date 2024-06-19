@@ -125,3 +125,52 @@ button:hover {
     margin: 2em;
     padding: 1em 2em;
 }
+@media (max-width: 768px) {
+    .auth-container {
+        padding: 1em;
+    }
+
+    .auth-box input {
+        font-size: 0.9em;
+    }
+
+    .auth-button, button {
+        font-size: 0.9em;
+        padding: 0.5em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .subheading {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .auth-box {
+        gap: 0.5em;
+    }
+
+    .auth-box label {
+        font-size: 0.9em;
+    }
+
+    .auth-box input {
+        font-size: 0.8em;
+    }
+
+    .auth-button, button {
+        font-size: 0.8em;
+        padding: 0.5em;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .subheading {
+        font-size: 0.9em;
+    }
+}
